@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Login</title>
+		<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+		
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 class="logo">Slrtce <span class="blue-color">Book</span></h1><br/>
+
+			<div class="form-container">
+				<form>
+					<input id="username" type="text" placeholder="Username" />
+					<input id="pass" type="password" placeholder="Password" />
+					<input type="submit" value="Login" />
+				</form>
+			</div>
+
+			<p>Don't have an account? <a href="/">Click here</a> to register</p>
+		</div>
+	</body>
+</html>

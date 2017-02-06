@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>SLRTCE BOOK</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+		
+	</head>
+
+	<body>
+		<div class="container">
+			<h1 class="logo">Slrtce <span class="blue-color">Book</span></h1><br />
+
+			<div class="form-container">
+				<form>
+					<input id="name" type="text" placeholder="Full name"/>
+					<input id="username" type="text" placeholder="New username" />
+					<input id="pass" type="password" placeholder="Password" />
+					<input id="repass" type="password" placeholder="Re-enter password" />
+					<input type="submit" value="Create new account" />
+				</form>
+			</div>
+
+			<p>Have an account already? <a href="login">Click here</a> to login</p>
+		</div>
+	</body>
+</html>
