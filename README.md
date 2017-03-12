@@ -1,2 +1,2 @@
 # myproject
-SLRTCE BOOK: See and share photos with your friends at Shri L. R. Tiwari College of Engineering
+SLRTCE BOOK: A fun project to practice Django and React and Android development, hehe :see_no_evil: :see_no_evil: :wink:
