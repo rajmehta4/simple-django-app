@@ -1,14 +1,22 @@
-{% include 'login_header.html' %}
+{% extends 'login_base.html' %}
 
-			<div class="form-container">
-				<form>
-					<input id="username" type="text" placeholder="Username" />
-					<input id="pass" type="password" placeholder="Password" />
-					<input id="submit" type="submit" value="Login" />
-				</form>
-			</div>
+{% block title %}Log in to SLRTCE Book{% endblock %}
 
-			<p>Don't have an account? <a href="/">Register here</a></p>
-		</div>
-	</body>
-</html>
+{% block body %}
+
+<div class="form-container">
+	<form method="post" enctype="multipart/form-data">
+	
+		{% csrf_token %}
+		{% for field in form %}
+			{{ field }}
+			{{ field.errors }}
+		{% endfor %}
+
+		<input id="submit" type="submit" value="Log in" />
+	</form>
+</div>
+
+<p>Don't have an account? <a href="/">Register here</a></p>
+
+{% endblock %}
