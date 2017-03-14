@@ -75,20 +75,13 @@ input[type="submit"] {
 	margin: 0 auto;
 }
 
-/* For 404 page */
-
-h1.four-o-four {
+h1.four-oh-four {
 	color: #3cb371;
 }
 
-/* For registration and login errors */
+/* For 404 page */
 
-ul.errorlist {
-	padding: 0;
-	margin: -5% 0 6% 0;
-	color: #F44336;
-	list-style: none;
-}
+
 
 /* Media queries */
 
