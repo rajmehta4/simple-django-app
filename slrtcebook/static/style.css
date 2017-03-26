@@ -81,7 +81,15 @@ h1.four-oh-four {
 
 /* For 404 page */
 
+/* For the home page, when logged in */
 
+.welcome {
+	margin-left: 3%;
+}
+
+h2.welcome {
+	margin-top: 2%;
+}
 
 /* Media queries */
 
