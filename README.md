@@ -11,8 +11,8 @@ I'm sorry I haven't deployed the app on some server yet. Here are some screensho
 
 ### Login screen:
 
-![Login screen screenshot](https://raw.githubusercontent.com/yayraj/myproject/master/slrtcebook/screenshots/create-new-account.png "Login screen")
+![Login screen screenshot](https://raw.githubusercontent.com/yayraj/myproject/master/slrtcebook/screenshots/login.png "Login screen")
 
 ### After a successful login:
 
-![After successful login screenshot](https://raw.githubusercontent.com/yayraj/myproject/master/slrtcebook/screenshots/create-new-account.png "After a successful login")
+![After successful login screenshot](https://raw.githubusercontent.com/yayraj/myproject/master/slrtcebook/screenshots/after-login.png "After a successful login")
