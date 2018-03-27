@@ -3,7 +3,7 @@ SLRTCE BOOK: A fun project to practice Django.
 
 A basic app that lets a user create a new account and login, with a simple but beautiful UI :blush: :blush:
 
-I'm sorry I haven't deployed the app on some server yet. Here are some screenshots though:
+Here are some screenshots:
 
 ### Creating a new account:
 
